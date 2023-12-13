@@ -1,0 +1,109 @@
+<html>
+    <head>
+    <title>
+    javascript and DOM
+    </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="index.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="What-Is-JavaScript-Used-For.avif" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="og-home.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="howajaxworks.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <main class="px-3">
+        <h1>javascript and DOM!</h1>
+        <button onclick="ontap1()" type="button" class="btn btn-outline-success">clickme</button>
+        <p class="lead">JavaScript and the DOM work together to create dynamic and interactive web pages, allowing developers to build responsive and engaging user interfaces..</p>
+        <p class="lead">
+          <a href="#" class="btn btn-lg btn-light fw-bold border-white bg-white" onclick="ontap()">Learn more</a>
+        </p>
+      </main>
+
+      <main class="px-4">
+        <h1>React!</h1>
+        <button onclick="ontapp2()" type="button" class="btn btn-outline-success">clickme</button>
+        <p class="lead">The world can't live without mobile and web applications in this day and age. Everything is digitized, from booking cabs to ordering food to make bank transactions. Thanks to the efficient frameworks that provide a seamless user experience. One such robust frontend library is React. This tutorial on ‘what is React’ will help you understand the library's fundamentals and work with a simple demo.</p>
+        <p class="lead">
+          <a href="#" class="btn btn-lg btn-light fw-bold border-white bg-white" onclick="ontapp()">Learn more</a>
+        </p>
+      </main>
+
+      <main class="px-4">
+        <h1>AJAX!</h1>
+        <button onclick="ontappp1()" type="button" class="btn btn-outline-success">clickme</button>
+        <p class="lead">The world can't live without mobile and web applications in this day and age. Everything is digitized, from booking cabs to ordering food to make bank transactions. Thanks to the efficient frameworks that provide a seamless user experience. One such robust frontend library is React. This tutorial on ‘what is React’ will help you understand the library's fundamentals and work with a simple demo.</p>
+        <p class="lead">
+          <a href="#" class="btn btn-lg btn-light fw-bold border-white bg-white" onclick="ontappp()">Learn more</a>
+        </p>
+      </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+
+<script>
+
+function ontap1() {
+        let url = "https://www.w3schools.com/js/";
+        let opennewtab = open(url,"","height=900px","width=900px");
+        setTimeout(() => {
+            opennewtab.close();
+        },3000)
+    }
+
+    function ontap() {
+        let url = "https://www.w3schools.com/js/";
+        let opennewtab = open(url,"","height=900px","width=900px");
+    }
+
+
+    function ontapp1() {
+        let url = "https://www.simplilearn.com/tutorials/reactjs-tutorial/what-is-reactjs";
+        let opennewtab = open(url,"","height=900px","width=900px");
+        setTimeout(() => {
+            opennewtab.close();
+        },3000)
+    }
+
+    
+    function ontapp() {
+        let url = "https://www.simplilearn.com/tutorials/reactjs-tutorial/what-is-reactjs";
+        let opennewtab = open(url,"","height=900px","width=900px");
+    }
+
+    function ontappp1() {
+        let url = "https://www.w3schools.com/xml/ajax_intro.asp";
+        let opennewtab = open(url,"","height=900px","width=900px");
+        setTimeout(() => {
+            opennewtab.close();
+        },3000)
+    }
+
+    function ontappp() {
+        let url = "https://www.w3schools.com/xml/ajax_intro.asp";
+        let opennewtab = open(url,"","height=900px","width=900px");
+    }
+  
+
+</script>
+</html>

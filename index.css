@@ -1,0 +1,19 @@
+/* Apply dark grey background color to the main element */
+main {
+    background-color: #333; /* Change the color code as per your preference */
+    color: #fff; /* Text color */
+    padding: 20px; /* Padding around the content */
+    text-align: center; /* Center align the content */
+  }
+  
+  /* Style the button inside the main element */
+  main button {
+    margin-bottom: 20px; /* Add some spacing below the button */
+  }
+  
+  /* Style the anchor tag inside the main element */
+  main a {
+    color: #fff; /* Link color */
+    text-decoration: none; /* Remove underline */
+  }
+  
